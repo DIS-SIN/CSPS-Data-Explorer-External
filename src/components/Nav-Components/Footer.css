@@ -1,0 +1,25 @@
+.footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	/* Same as body's margin-bottom */
+	height: 3.75rem;
+}
+.footerContainer {
+	height: 100%;
+	border-top: 0.25rem solid #3f2a56;
+}
+.footerContents {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+}
+.footer img {
+	height: 2.5rem;
+}
+.topOfPage {
+	cursor: pointer;
+}

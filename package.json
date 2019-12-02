@@ -1,0 +1,62 @@
+{
+	"name": "departmental-data-explorer",
+	"version": "1.0.0",
+	"description": "Live departmental learning info in React",
+	"main": "index.js",
+	"scripts": {
+		"build": "webpack --mode production",
+		"start": "webpack-dev-server --mode development --hot"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/DIS-SIN/Departmental-Data-Explorer.git"
+	},
+	"author": "deepklim",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/DIS-SIN/Departmental-Data-Explorer/issues"
+	},
+	"homepage": "https://github.com/DIS-SIN/Departmental-Data-Explorer#readme",
+	"babel": {
+		"presets": [
+			"@babel/preset-env",
+			"@babel/preset-react"
+		],
+		"plugins": [
+			"@babel/plugin-proposal-class-properties"
+		]
+	},
+	"dependencies": {
+		"@babel/polyfill": "^7.4.4",
+		"@material-ui/core": "^4.3.3",
+		"@material-ui/icons": "^4.2.1",
+		"es6-promise": "^4.2.8",
+		"isomorphic-fetch": "^2.2.1",
+		"react": "^16.9.0",
+		"react-day-picker": "^7.3.2",
+		"react-dom": "^16.9.0",
+		"react-intl": "^3.7.0",
+		"react-modal": "^3.10.1",
+		"react-redux": "^7.1.1",
+		"react-router-dom": "^5.1.2",
+		"react-scrolllock": "^4.0.1",
+		"react-select": "^3.0.8",
+		"react-swipeable-views": "^0.13.3",
+		"redux": "^4.0.4",
+		"redux-thunk": "^2.3.0"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.5.5",
+		"@babel/plugin-proposal-class-properties": "^7.5.5",
+		"@babel/preset-env": "^7.5.5",
+		"@babel/preset-react": "^7.0.0",
+		"babel-loader": "^8.0.6",
+		"css-loader": "^3.2.0",
+		"file-loader": "^4.2.0",
+		"html-webpack-plugin": "^3.2.0",
+		"style-loader": "^1.0.0",
+		"webpack": "^4.39.3",
+		"webpack-cli": "^3.3.7",
+		"webpack-dev-server": "^3.8.0"
+	}
+}

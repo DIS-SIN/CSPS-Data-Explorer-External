@@ -1,0 +1,96 @@
+.outerBanner {
+	background-color: #3f2a56;
+}
+.banner {
+	background-color: #3f2a56;
+	background-image: url(../../static/FIPs/csps_waves.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin-bottom: 1.5rem;
+}
+
+
+
+/* Title text and School logo */
+.outerLogos {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	clear: right;
+}
+.logos {
+	min-height: 16rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	width: 100%;
+}
+.logos h1 {
+	font-size: 3rem;
+	color: #fff;
+	font-weight: 100;
+	margin: 1.25rem 0;
+}
+.logos img {
+	height: 11rem;
+}
+/* Center and shrink logo on mobile */
+@media (max-width: 767px) {
+	.logos {
+		flex-direction: column;
+	}
+	.logos img {
+		height: 9rem;
+	}
+}
+
+
+
+/* Navbar for desktop */
+.navBar {
+	padding: 2rem 0.6rem 0.6rem 0.6rem;
+}
+.navBar li {
+	float: right;
+	margin: 0 2rem;
+	list-style-type: none;
+}
+.navBar li a {
+	color: #fff;
+	font-size: 1.5rem;
+	text-decoration: none;
+}
+/* Hide navbar on mobile */
+/* Navbar for mobile is built in Material UI */
+@media (max-width: 767px) {
+	.navBar {
+		display: none;
+	}
+}
+/* Transition links on hover */
+@media (min-width: 768px) {
+	.navBar li a::after {
+		content: '';
+		display: block;
+		background-color: #da797a;
+		height: 4px;
+		width: 0%;
+		margin-top: 6px;
+		transition: width 450ms ease-in-out;
+	}
+	.navBar li a:hover::after {
+		width: 100%;
+	}
+}
+
+
+
+/* Navbar for mobile */
+@media (min-width: 768px) {
+	.mobileNavBar {
+		display: none;
+	}
+}

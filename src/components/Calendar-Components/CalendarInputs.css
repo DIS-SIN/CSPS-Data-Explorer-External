@@ -1,0 +1,13 @@
+.calendarInputs {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+}
+/* Stack controls vertically on mobile */
+@media (max-width: 991px) {
+	.calendarInputs {
+		flex-direction: column;
+	}
+}

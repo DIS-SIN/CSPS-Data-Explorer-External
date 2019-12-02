@@ -1,0 +1,42 @@
+.glyphiconStar,
+.glyphiconStarEmpty {
+	color: #ffcc33;
+	font-size: 1rem;
+}
+.glyphiconStarEmpty {
+	opacity: 0.3;
+}
+.avatar {
+	width: 7rem;
+	padding: 0 !important;
+	margin-right: 0.5rem;
+	border: 1px solid transparent;
+}
+.avatar:hover {
+	border-color: #3f2a56 !important;
+}
+.bobComment {
+	margin-bottom: 1.5rem;
+}
+.commentDate {
+	float: right;
+}
+
+
+.filter {
+	text-align: right;
+	margin: 0.5rem 0;
+}
+.filter:first-child {
+	margin-top: 1.25rem !important;
+}
+.filter:last-child {
+	margin-bottom: 1.25rem;
+}
+.filter p {
+	display: inline;
+}
+
+.blurb {
+	margin: 1rem 0;
+}

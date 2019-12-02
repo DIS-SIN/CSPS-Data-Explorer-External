@@ -1,0 +1,41 @@
+.iconButton {
+	color: #3f2a56;
+}
+.infoPanel {
+	width: 90%;
+	margin: 1rem auto;
+}
+.infoTable {
+	width: 100%;
+}
+.infoTable tr {
+	border-top: 1px solid rgba(0,0,0,0.12);
+}
+.infoTable tr:last-child {
+	border-bottom: 1px solid rgba(0,0,0,0.12);
+}
+.infoTable td {
+	height: 3rem;
+}
+/* Use outer div as CSS disallows border-radius on table elements */
+.roundedBorder {
+	border: 1px solid #3f2a56;
+	border-radius: 0.5rem;
+	margin-bottom: 1rem;
+}
+.switchTable {
+	min-height: 4rem;
+	width: 100%;
+	text-align: left;
+}
+.switchTable td:nth-child(2) {
+	padding: 1rem;
+}
+.switchTable td:first-child {
+	width: 3.5rem;
+	text-align: left;
+}
+.switchTable td:last-child {
+	width: 3.5rem;
+	text-align: right;
+}

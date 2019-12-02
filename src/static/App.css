@@ -1,0 +1,33 @@
+/***** Global styles *****/
+html {
+	position: relative;
+	min-height: 100%;
+	/* Explicitly declare so can be referenced by rem units */
+	font-size: 16px;
+}
+body {
+	font-family: Georgia, Helvetica, sans-serif;
+	color: #333;
+	font-size: 1rem;
+	margin: 0;
+	/* Same as height of footer */
+	margin-bottom: 3.75rem;
+}
+a,
+a:link,
+a:visited {
+	color: #333;
+}
+a:hover,
+a:active {
+	color: #000;
+}
+
+
+/* Style navbar links when active */
+a.active {
+	transition: none;
+}
+a.active::after {
+	width: 100% !important;
+}
